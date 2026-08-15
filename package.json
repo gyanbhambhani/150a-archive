@@ -7,7 +7,7 @@
     "export-archive": "tsx scripts/export.ts",
     "prebuild": "npm run validate && npm run export-archive",
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },

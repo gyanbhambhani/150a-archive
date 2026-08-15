@@ -1,6 +1,6 @@
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ??
-  "https://candle-archive.vercel.app";
+  "https://150a-archive.vercel.app";
 
 export const SITE_TITLE = "Keep the why";
 export const SITE_SUBTITLE =

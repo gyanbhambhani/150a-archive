@@ -139,10 +139,9 @@ export default function StatementPage() {
         </p>
         <p>
           <em>Named end conditions.</em> If the domain lapses or I stop
-          maintaining it, the README in the repository contains revival
-          instructions: clone, install, build, deploy, roughly ten minutes. The
-          license on all original writing is CC BY-NC 4.0 so someone else can
-          carry it without asking.
+          maintaining it, the license on all original writing is CC BY-NC 4.0
+          so someone else can carry it without asking. The files in this
+          repository are the archive. Host them anywhere.
         </p>
         <p>
           <em>What gets deleted.</em> Nothing, because nothing was mirrored.

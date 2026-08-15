@@ -1,48 +1,13 @@
 # Keep the why
 
-Humans trade on fear. Models train on numbers. This archive shows the
-gap.
+After every trade, write why you did it.
 
-DigHum 150A, UC Berkeley, Summer D 2026. Gyan Bhambhani.
+This is a small archive of twelve documents from days when prices
+jumped because people felt something. Fear, hope, a public sentence.
+The file a trading model usually trains on keeps the leftover number
+and drops the reason.
 
-Live URL: set `NEXT_PUBLIC_SITE_URL` before deploy, then record the
-Vercel URL here after first production push.
+I built it for DigHum 150A at UC Berkeley, Summer 2026.
 
-## Revival (sunset plan)
-
-This site is static. No database, no CMS, no request-time APIs.
-To bring it back up:
-
-1. Clone the repository.
-2. `npm install`
-3. `npm run build`
-4. Deploy the `out/` directory to any static host, or run
-   `npx vercel --prod`.
-
-That is roughly ten minutes. Original writing is CC BY-NC 4.0.
-
-## Local
-
-```bash
-npm install
-npm run validate
-npm run dev
-```
-
-`npm run validate` encodes the rubric: item count, DCMI fields, quote
-caps, relation integrity, lag rules, Cite coverage, and em dash scan.
-
-## Exports
-
-Build writes:
-
-- `public/exports/items.json`
-- `public/exports/metadata.csv`
-- `public/exports/omeka-import.csv`
-
-The Omeka CSV maps custom `mkt:` fields into `dcterms:description`
-qualifiers. That loss is documented in the data dictionary.
-
-## Stack
-
-Next.js 15 (App Router), TypeScript, Tailwind v4. `output: "export"`.
+Original writing is licensed CC BY-NC 4.0. Sources are linked, not
+copied.
