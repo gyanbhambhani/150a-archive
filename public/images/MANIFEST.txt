@@ -1,0 +1,4 @@
+tickeriq-equity.svg
+credit: Gyan Bhambhani, drawn from the author's backtest output, August 2025.
+alt: An equity curve that climbs in uneven steps from early 2020 to mid 2025, with a deep drawdown through 2022 and a smaller pullback in 2024, ending above its start.
+rights: author's own work, CC BY-NC 4.0

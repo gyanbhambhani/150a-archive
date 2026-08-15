@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img">
+  <title>Backtest equity curve, 2020 to 2025</title>
+  <rect width="720" height="280" fill="#EAEEE8"/>
+  <line x1="40" y1="240" x2="690" y2="240" stroke="#B7C1B5"/>
+  <line x1="40" y1="20" x2="40" y2="240" stroke="#B7C1B5"/>
+  <polyline
+    fill="none"
+    stroke="#16213D"
+    stroke-width="1.5"
+    points="40,210 80,198 120,186 160,170 200,176 240,150 280,132 320,168 360,190 400,174 440,148 480,130 520,138 560,112 600,96 640,88 680,74"
+  />
+  <text x="40" y="262" font-family="IBM Plex Mono, monospace" font-size="11" fill="#46506B">2020</text>
+  <text x="320" y="262" font-family="IBM Plex Mono, monospace" font-size="11" fill="#46506B">2022 drawdown</text>
+  <text x="640" y="262" font-family="IBM Plex Mono, monospace" font-size="11" fill="#46506B">2025</text>
+</svg>
