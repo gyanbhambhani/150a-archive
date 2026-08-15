@@ -115,9 +115,9 @@ export default function StatementPage() {
           <em>The site is fully static.</em> No database, no server-side
           runtime, no third-party API at request time. It can be exported to
           flat files and hosted anywhere, or hosted nowhere and still read from
-          the repository. The Next.js config uses output: export for that
-          reason. The event timeline is drawn in-house rather than embedded
-          from a third-party iframe that would break the sunset plan.
+          the repository. Pages are prerendered at build time. The event
+          timeline is drawn in-house rather than embedded from a third-party
+          iframe that would break the sunset plan.
         </p>
         <p>
           <em>The content is separable from the presentation.</em> All twelve
