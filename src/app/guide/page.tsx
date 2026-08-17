@@ -74,7 +74,11 @@ export default function GuidePage() {
           <Link href="/browse" className="underline">
             12 items
           </Link>{" "}
-          is the list. You can search, or filter by four questions:
+          is the list. You can search, or filter by four questions.{" "}
+          <Link href="/blogs" className="underline">
+            Blogs
+          </Link>{" "}
+          is the earlier writing from this class, in the order I wrote it.
         </p>
         <p>
           <em>When they knew.</em> Did they speak before they knew the ending,

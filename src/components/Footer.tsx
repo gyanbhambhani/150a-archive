@@ -14,6 +14,11 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/blogs" className="text-ink-soft underline">
+                Blogs
+              </Link>
+            </li>
+            <li>
               <Link href="/browse" className="text-ink-soft underline">
                 12 items
               </Link>

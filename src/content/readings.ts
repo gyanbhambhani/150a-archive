@@ -9,7 +9,7 @@ export const readings: Reading[] = [
       "Trouillot, Michel-Rolph, and Hazel V. Carby. \"The Power in the Story.\" In Silencing the Past: Power and the Production of History. Beacon Press, 2015.",
     annotation:
       "Silences enter the historical record at four moments, and the first is fact creation, before any historian touches anything. A person's reason for buying or selling is never made into a fact. The file records a number. That first silence is the spine of this archive.",
-    used: "Cited on the introduction as the archival name for what the leftover file deletes, and on the browse and reading-list pages.",
+    used: "Cited on the introduction, browse, reading list, and blog week 2.",
   },
   {
     id: "caswell-records",
@@ -138,7 +138,7 @@ export const readings: Reading[] = [
       "Milligan, Jennifer S. \"'What Is an Archive?' In the History of Modern France.\" In Archive Stories: Facts, Fictions, and the Writing of History, ed. Antoinette M. Burton. Duke University Press, 2005.",
     annotation:
       "The category archive is younger and more contested than it looks from inside. That is permission to extend it toward market data. It is also a reason to be modest about the confidence with which this project does so.",
-    used: "Cited in the positionality statement.",
+    used: "Cited in the positionality statement and in blog week 1.",
   },
   {
     id: "callaway",
@@ -148,7 +148,7 @@ export const readings: Reading[] = [
       "Callaway, Elizabeth, Jeffrey Turner, Heather Stone, and Adam Halstrom. \"The Push and Pull of Digital Humanities: Topic Modeling the 'What Is Digital Humanities?' Genre.\" DHQ 14, no. 1 (2020).",
     annotation:
       "The field keeps redrawing its own boundary. Market data is born-digital, continuously produced, publicly consequential, and almost unclaimed by the people trained to appraise records. This project argues for one specific extension of that boundary.",
-    used: "Used in the scholarly audience paragraph on the introduction.",
+    used: "Used in the scholarly audience paragraph on the introduction, and in blog week 1.",
   },
   {
     id: "wintjes",
@@ -237,6 +237,26 @@ export const readings: Reading[] = [
     used: "Cited as an accessibility limit, not as future work.",
   },
   {
+    id: "poe",
+    section: "outside",
+    shortCite: "Poe 1836",
+    citation:
+      "Poe, Edgar Allan. \"Maelzel's Chess-Player.\" Southern Literary Messenger (1836).",
+    annotation:
+      "Poe never opens the cabinet. He reads the timing, the choreography, and the blunders, and infers a person inside. That is the method I use on my own models.",
+    used: "The organizing reading of blog week 4.",
+  },
+  {
+    id: "boyd-crawford",
+    section: "outside",
+    shortCite: "boyd and Crawford 2012",
+    citation:
+      "boyd, danah, and Kate Crawford. \"Critical Questions for Big Data.\" Information, Communication and Society 15, no. 5 (2012): 662 to 679.",
+    annotation:
+      "Huge files offer connections in every direction, including fake ones. Butter production in Bangladesh is their joke aimed at my industry. I ran the joke on noise and watched a career-looking number appear.",
+    used: "Cited in blog week 4 as the reason I deflate every result by how many things I tried.",
+  },
+  {
     id: "caswell-arendt",
     section: "outside",
     shortCite: "Caswell 2010",
@@ -264,7 +284,7 @@ export const readings: Reading[] = [
       "Drucker, Johanna. \"Humanities Approaches to Graphical Display.\" DHQ 5, no. 1 (2011).",
     annotation:
       "Visualizations and schemas present interpretation as if it were observation. An affect field with no attribution field would convert my reading of a document into a property of the document. Carrying attribution keeps that conversion visible.",
-    used: "Supports the affectAttribution field and the lag plot caption.",
+    used: "Supports the affectAttribution field, the lag plot caption, and blog week 2.",
   },
   {
     id: "data-feminism",

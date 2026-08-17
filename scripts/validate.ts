@@ -93,6 +93,8 @@ const longForm = [
   "src/app/browse/page.tsx",
   "src/app/reading-list/page.tsx",
   "src/app/ai-use/page.tsx",
+  "src/app/blogs/page.tsx",
+  "src/components/blog-posts.tsx",
   "src/components/CorpusDemo.tsx",
   "src/components/GapReader.tsx",
   "src/components/LossAversionChart.tsx",

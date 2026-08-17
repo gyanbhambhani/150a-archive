@@ -14,6 +14,7 @@ const links = [
   { href: "/guide", label: "How to use" },
   { href: "/data-dictionary", label: "Fields" },
   { href: "/reading-list", label: "Sources" },
+  { href: "/blogs", label: "Blogs" },
   { href: "/statement", label: "About" },
 ];
 
