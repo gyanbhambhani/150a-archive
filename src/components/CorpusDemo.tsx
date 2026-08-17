@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Cite } from "@/components/Cite";
 import { MachineTicket } from "@/components/MachineTicket";
 import { MICROCOPY } from "@/content/copy";
 import {
@@ -161,6 +162,11 @@ export function CorpusDemo({ item }: { item: ArchiveItem }) {
       </div>
       <p className="sr-only" aria-live="polite">
         {live === "stripping" ? "The reasoning is being stripped." : live}
+      </p>
+      <p className="vis-caption mt-5">
+        Kahneman and Tversky measured how hard a loss lands.{" "}
+        <Cite id="prospect" /> Trouillot called the leftover number a silence
+        at the moment a fact is made. <Cite id="trouillot" />
       </p>
     </div>
   );

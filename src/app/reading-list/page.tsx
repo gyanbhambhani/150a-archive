@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Cite } from "@/components/Cite";
 import { Main } from "@/components/Main";
 import { Prose } from "@/components/Prose";
 import { readings } from "@/content/readings";
@@ -18,6 +19,13 @@ export default function ReadingListPage() {
           Annotated for a public audience. Each entry says why the reading
           matters here, then how this project used it. Course readings sit
           first because that is what the rubric asks for.
+        </p>
+        <p>
+          The list is also a map of the two fields I am writing into.
+          Trouillot taught me to ask what a record threw away at the moment a
+          fact was made. <Cite id="trouillot" /> Gebru and colleagues taught
+          me to ask the same question of a training file.{" "}
+          <Cite id="datasheets" />
         </p>
       </Prose>
       <section className="mt-10" aria-labelledby="course-readings">

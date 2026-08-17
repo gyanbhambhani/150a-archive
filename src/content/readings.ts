@@ -9,7 +9,7 @@ export const readings: Reading[] = [
       "Trouillot, Michel-Rolph, and Hazel V. Carby. \"The Power in the Story.\" In Silencing the Past: Power and the Production of History. Beacon Press, 2015.",
     annotation:
       "Silences enter the historical record at four moments, and the first is fact creation, before any historian touches anything. A person's reason for buying or selling is never made into a fact. The file records a number. That first silence is the spine of this archive.",
-    used: "Cited on the introduction as the archival name for what the leftover file deletes.",
+    used: "Cited on the introduction as the archival name for what the leftover file deletes, and on the browse and reading-list pages.",
   },
   {
     id: "caswell-records",
@@ -49,7 +49,7 @@ export const readings: Reading[] = [
       "Society of American Archivists. Definitions of \"Content,\" \"Context,\" and \"Structure.\" Dictionary of Archives Terminology.",
     annotation:
       "A record is content plus context plus structure. A price series has two of the three. Context is the part that says why. By the field's own definition, a price bar is a record with a third of itself missing.",
-    used: "The cleanest statement of the argument, used on the introduction.",
+    used: "The cleanest statement of the argument, cited on the introduction.",
   },
   {
     id: "saa-value",
@@ -68,7 +68,7 @@ export const readings: Reading[] = [
     citation:
       "Region of Peel Archives. \"What Do Archivists Keep (or Not)?\" Peeling the Past, 4 April 2018.",
     annotation:
-      "Appraisal is deliberate, documented, and answerable to someone. The deletion of market reasoning had none of those properties. Nobody decided. The tape was built to hold a number, and it holds one.",
+      "Appraisal is deliberate, documented, and answerable to someone. The deletion of market reasoning had none of those properties. Nobody decided. The file was built to hold a number, and it holds one.",
     used: "Used in the exhibit and the scholarly intervention to show that this is not appraisal.",
   },
   {
@@ -98,7 +98,7 @@ export const readings: Reading[] = [
       "Brückner, Martin, and Sandy Isenstadt. \"The Elusive Archive in Material Culture Studies.\" In Elusive Archives: Material Culture Studies in Formation. University of Delaware Press, 2021.",
     annotation:
       "Some evidence does not arrive in document form, and the discipline has no slot for it. Market affect is elusive in that way. It is real, it is causal, it is observable to anyone who was on a desk that week, and it has no accession number anywhere.",
-    used: "Frames Act IV of the exhibit.",
+    used: "Frames Act IV of the exhibit, next to the two-date argument.",
   },
   {
     id: "smith-district-six",
@@ -108,7 +108,7 @@ export const readings: Reading[] = [
       "Smith, Tina. District Six Huis Kombuis: Food & Memory Cookbook. Edited by Shaun Viljoen. Quivertree Publications, 2016.",
     annotation:
       "Recipes carried a displaced community's memory because the official record would not. A record does not look like a record until someone decides it is one. A forum post written in memes is the densest evidence of financial reasoning in this collection.",
-    used: "The reason a vernacular thread counts as an archival document here.",
+    used: "Cited on the browse page as the reason a vernacular thread counts as a document.",
   },
   {
     id: "wilkerson",
@@ -118,7 +118,7 @@ export const readings: Reading[] = [
       "Wilkerson, Isabel. \"Leaving\" and \"The Great Migration, 1915-1917.\" In The Warmth of Other Suns. Vintage, 2011.",
     annotation:
       "Six million people moving north is an accurate number that explains nothing. What explains it is why a particular person left on a particular night, which only survives because somebody sat down and asked. Markets have almost none of that asking.",
-    used: "The methodological model for what this archive tries to collect.",
+    used: "Cited on the introduction as the method: ask why a particular person moved.",
   },
   {
     id: "courpasson-marti",
@@ -148,7 +148,7 @@ export const readings: Reading[] = [
       "Callaway, Elizabeth, Jeffrey Turner, Heather Stone, and Adam Halstrom. \"The Push and Pull of Digital Humanities: Topic Modeling the 'What Is Digital Humanities?' Genre.\" DHQ 14, no. 1 (2020).",
     annotation:
       "The field keeps redrawing its own boundary. Market data is born-digital, continuously produced, publicly consequential, and almost unclaimed by the people trained to appraise records. This project argues for one specific extension of that boundary.",
-    used: "Used in \"Where this intervenes\" on the introduction.",
+    used: "Used in the scholarly audience paragraph on the introduction.",
   },
   {
     id: "wintjes",
@@ -167,7 +167,7 @@ export const readings: Reading[] = [
     citation: "Queering the Map. queeringthemap.com.",
     annotation:
       "One sentence, one coordinate, one moment can be a complete record. A scaled version of this archive would look like that: short first-person reasoning pinned to a ticker and a timestamp.",
-    used: "Named in the how-to guide as a formal precedent.",
+    used: "Named in the how-to guide and on the introduction as a formal precedent.",
   },
   {
     id: "tenement",
@@ -244,7 +244,7 @@ export const readings: Reading[] = [
       "Caswell, Michelle. \"Hannah Arendt's World: Bureaucracy, Documentation, and Banal Evil.\" Archivaria (2010): 1 to 25.",
     annotation:
       "Thoughtlessness in recordkeeping is itself the harm. Market data is recorded thoughtlessly at planetary scale, and those records now train the systems that will make the next set of decisions.",
-    used: "Named in the final project prompt and cited in the scholarly intervention.",
+    used: "Named in the final project prompt and cited on the introduction and statement.",
   },
   {
     id: "prospect",
@@ -284,7 +284,7 @@ export const readings: Reading[] = [
       "Gebru, Timnit, et al. \"Datasheets for Datasets.\" Communications of the ACM 64, no. 12 (2021).",
     annotation:
       "Dataset documentation is a precondition for responsible use. The practice has taken hold in language and vision work. Financial data has stayed exempt. The provenance check in the call to action is a datasheet question asked of a price corpus.",
-    used: "The bridge between archival appraisal and machine learning practice.",
+    used: "The bridge between archival appraisal and machine learning practice, cited on the introduction, reading list, and AI-use page.",
   },
   {
     id: "parrots",
@@ -294,7 +294,17 @@ export const readings: Reading[] = [
       "Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. \"On the Dangers of Stochastic Parrots.\" FAccT (2021).",
     annotation:
       "A system can produce coherent text without any grounding in the situation the text describes. Item 12 is that failure with a timestamp and a price attached.",
-    used: "Cited in Act V on the model-generated retrospective.",
+    used: "Cited in Act V and on the AI-use page, next to the model-generated retrospective.",
+  },
+  {
+    id: "christen",
+    section: "outside",
+    shortCite: "Christen 2012",
+    citation:
+      "Christen, Kimberly. \"Does Information Really Want to be Free? Indigenous Knowledge Systems and the Question of Openness.\" International Journal of Communication 6 (2012): 2873 to 2892.",
+    annotation:
+      "Openness is not a default good. Some records should stay in the communities that made them. Linking instead of mirroring is the small version of that argument in this archive.",
+    used: "Cited on the data dictionary rights section.",
   },
   {
     id: "alt-text-as-poetry",

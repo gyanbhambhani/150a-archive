@@ -75,23 +75,53 @@ export default function HomePage() {
           clear a trade. Later you can prove the trade happened. The why was
           never asked for, so it is not there to prove.
         </p>
+        <p>
+          The Society of American Archivists definition of a record is
+          content, plus context, plus structure. <Cite id="saa-ccs" /> A
+          leftover price has content and structure. Context is the why, and
+          it is the part the file never asked for.
+        </p>
+        <p>
+          Caswell, reading Arendt, treats thoughtlessness in documentation as
+          the harm itself. <Cite id="caswell-arendt" /> Prices are recorded
+          that way every trading day, at a scale no archive has attempted,
+          and those files now train the next round of decisions. This project
+          is me putting thought back into one small set of those files.
+        </p>
+        <p>
+          Isabel Wilkerson&apos;s method is the one I want at scale: an
+          accurate number explains little until someone asks why a particular
+          person moved on a particular night. <Cite id="wilkerson" /> Markets
+          have almost none of that asking.
+        </p>
 
         <h2>Who this is for</h2>
         <p>
-          If you might put money into one of these systems, or you are
-          building one, the question I keep coming back to is small. Did
-          anyone save why the trades happened?
+          The public audience is anyone who might put money into a trading
+          system, and anyone building one. You should care because the
+          computer is being asked to act in a human market while its training
+          file has never held a human reason. The question I keep coming back
+          to is small. Did anyone save why the trades happened?
         </p>
         <p>
           I am also writing this into two academic conversations that mostly
           ignore each other. Digital humanities and archival studies know how
           to ask what a record threw away. They have almost never asked that
-          of market data. Machine learning knows how to train on a file, and
-          almost never asks what got deleted on the way in. Gebru and
+          of market data. Callaway and colleagues describe a field that keeps
+          redrawing its own boundary. <Cite id="callaway" /> Market data is
+          born-digital, public, and almost unclaimed by the people trained to
+          appraise records. Machine learning knows how to train on a file,
+          and almost never asks what got deleted on the way in. Gebru and
           colleagues argued that every dataset needs a datasheet: what is in
           it, what is missing, who made it. <Cite id="datasheets" /> Price
           files have skipped that step. This archive is my attempt at one, for
           the missing why.
+        </p>
+        <p>
+          A public memory project like Queering the Map showed me that one
+          sentence, tied to a moment, can be a complete record.{" "}
+          <Cite id="queering-the-map" /> That is the form I want sitting next
+          to a price.
         </p>
 
         <h2>What to do</h2>

@@ -78,7 +78,9 @@ export function Timeline() {
         they do not all arrive at the same time. The Wakasa Memorial
         Committee&apos;s timeline was the model here, <Cite id="wakasa" /> in
         that it keeps the distance between an event and its documentation
-        visible instead of smoothing the two together.
+        visible instead of smoothing the two together. Wintjes argues that a
+        picture in an archive can carry the argument, <Cite id="wintjes" />{" "}
+        and this drawing is doing that work.
       </figcaption>
     </figure>
   );

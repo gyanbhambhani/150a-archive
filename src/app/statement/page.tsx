@@ -38,6 +38,12 @@ export default function StatementPage() {
           only&quot; should be a disclosed property of a product, with a
           published rubric, not something a buyer has to guess.
         </p>
+        <p>
+          Caswell, reading Arendt, treats thoughtlessness in documentation as
+          the harm itself. <Cite id="caswell-arendt" /> The carousel is my
+          attempt to put thought back into a file that currently records
+          without thinking.
+        </p>
 
         <h2>Accessibility</h2>
         <p>Decisions made and implemented:</p>
@@ -112,10 +118,9 @@ export default function StatementPage() {
         </p>
         <p>The plan:</p>
         <p>
-          <em>The site is fully static.</em> No database, no server-side
-          runtime, no third-party API at request time. It can be exported to
-          flat files and hosted anywhere, or hosted nowhere and still read from
-          the repository. Pages are prerendered at build time. The event
+          <em>The pages are generated at build time.</em> No database, no
+          third-party API at request time. The files can be hosted anywhere,
+          or hosted nowhere and still read from the repository. The event
           timeline is drawn in-house rather than embedded from a third-party
           iframe that would break the sunset plan.
         </p>
@@ -152,6 +157,11 @@ export default function StatementPage() {
 
         <h2>Positionality</h2>
         <p>
+          This is the kind of positionality statement LG asked us to consider
+          when they spoke with the class. I am writing it because the archive
+          would be dishonest without it.
+        </p>
+        <p>
           I build the systems this archive is skeptical of. I ran trading
           rules on live money using five years of prices, and I am building a
           carousel of models that are supposed to write why after each trade.
@@ -185,7 +195,7 @@ export default function StatementPage() {
           Because this is a proof of concept developed over a six-week summer
           course in which I was simultaneously learning the theory and the
           practice of digital archiving, its scope is limited by design. Twelve
-          items across nine ways of knowing, all English, all US markets, all
+          items across ten ways of knowing, all English, all US markets, all
           equities and equity volatility. There is no crypto, no fixed income,
           no non-US venue, and no non-English record.
         </p>

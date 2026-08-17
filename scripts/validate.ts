@@ -90,6 +90,14 @@ const longForm = [
   "src/app/guide/page.tsx",
   "src/app/data-dictionary/page.tsx",
   "src/app/statement/page.tsx",
+  "src/app/browse/page.tsx",
+  "src/app/reading-list/page.tsx",
+  "src/app/ai-use/page.tsx",
+  "src/components/CorpusDemo.tsx",
+  "src/components/GapReader.tsx",
+  "src/components/LossAversionChart.tsx",
+  "src/components/LagPlot.tsx",
+  "src/components/Timeline.tsx",
 ];
 for (const relative of longForm) {
   const file = join(root, relative);

@@ -60,9 +60,9 @@ export default function ExhibitPage() {
           </p>
           <p>
             Humans treat a loss as bigger than a win of the same size.
-            Kahneman and Tversky measured that. A model looking at a percent
-            change has no access to the measurement. The percent is all it
-            gets.
+            Kahneman and Tversky measured that. <Cite id="prospect" /> A
+            model looking at a percent change has no access to the
+            measurement. The percent is all it gets.
           </p>
           <p>
             Two public statements sit next to that, from March 2020 and August
@@ -114,6 +114,15 @@ export default function ExhibitPage() {
             <Cite id="trouillot" /> Archivists usually decide, on purpose, what
             to keep. <Cite id="peel-appraisal" /> Nobody sat down and decided
             this. The file was built to hold a number, so it holds one.
+          </p>
+          <p>
+            Courpasson and Marti describe groups writing their own record when
+            they know the official one will flatten them.{" "}
+            <Cite id="courpasson-marti" /> The Warsaw Ghetto and a retail
+            trading forum are not on the same scale, and nothing here
+            suggests otherwise. The shape I am taking is only this: the
+            official leftover is thin, so I kept the unofficial sentences
+            too.
           </p>
         </Prose>
         <div className="mt-8">
@@ -187,6 +196,13 @@ export default function ExhibitPage() {
             person&apos;s reason, spoken before they knew the ending, is that
             kind of form. Copying it into a leftover number is how the meaning
             leaves.
+          </p>
+          <p>
+            Brückner and Isenstadt write about evidence that does not arrive
+            in document form, and that the discipline has no slot for.{" "}
+            <Cite id="bruckner-isenstadt" /> Fear is that kind of evidence
+            here. It moved the price. It has no accession number of its own,
+            unless someone writes it down.
           </p>
         </Prose>
       </section>

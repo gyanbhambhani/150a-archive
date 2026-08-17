@@ -228,8 +228,9 @@ export function LagPlot({ items }: { items: ArchiveItem[] }) {
         archive can carry an argument rather than illustrate one,{" "}
         <Cite id="wintjes" /> and this plot is the argument of this project in
         a single axis. Drucker&apos;s warning applies too: the chart presents
-        my coding decisions as if they were observations, so the underlying
-        values are in the table below.
+        my coding decisions as if they were observations,{" "}
+        <Cite id="drucker" /> so the underlying values are in the table
+        below.
       </figcaption>
       <p className="mt-3 text-[15px] text-ink-soft">
         Lags in this view range from{" "}

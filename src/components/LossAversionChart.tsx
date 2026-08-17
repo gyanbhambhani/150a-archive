@@ -72,8 +72,10 @@ export function LossAversionChart() {
       </svg>
       <figcaption className="vis-caption">
         Losing a dollar hurts more than gaining a dollar feels good, by about
-        two to one. Kahneman and Tversky, 1979.{" "}
-        <Cite id="prospect" />
+        two to one. Kahneman and Tversky, 1979. <Cite id="prospect" />{" "}
+        Drucker warns that a chart presents interpretation as if it were
+        observation, <Cite id="drucker" /> so the heights are also in the
+        table below: a gain at 1, a loss at 2.25.
       </figcaption>
       <p className="mt-3 text-[15px] text-ink-soft">
         A gain of one unit is drawn at height 1. A loss of one unit is drawn at

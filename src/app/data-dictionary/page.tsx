@@ -179,9 +179,9 @@ export default function DictionaryPage() {
         </p>
         <p>
           Kim Christen&apos;s critique of the assumption that information wants
-          to be free sits behind this choice as well. Pointing at a 2am forum
-          post instead of copying it is the ethics-of-access position this
-          archive takes.
+          to be free sits behind this choice as well.{" "}
+          <Cite id="christen" /> Pointing at a 2am forum post instead of
+          copying it is the ethics-of-access position this archive takes.
         </p>
 
         <h2>Controlled vocabularies</h2>

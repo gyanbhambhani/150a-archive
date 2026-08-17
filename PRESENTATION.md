@@ -34,12 +34,18 @@ and the surviving file is just the number.
 Trouillot: silences enter at the moment a fact is made. A stored price
 is that silence. Kahneman and Tversky: a loss feels about twice as hard
 as an equal win. That feeling rarely makes it into the training file.
+Caswell, reading Arendt: thoughtlessness in documentation is the harm.
+The leftover price file is that thoughtlessness at scale.
 
 ## 1:20 to 2:10, the demo. This is the moment, do not rush it.
 
 Stay on the start page. Read the GameStop paragraph out loud. Press
-"Strip the reasoning." Let the room watch the words leave until four
-numbers take their place. Then say: that is what most models train on.
+"Keep the numbers." Let the room watch the words leave until leftover
+prices take their place. Then "Keep the why": the same paragraph,
+labeled as feelings a model can train on. Then "See them trade": three
+lines starting at $100. Numbers only finish at $71. A person in the
+fear finishes at $55. The carousel, reading why, finishes at $134.
+Say: this is a sketch of the claim, not a live track record.
 
 ## 2:10 to 2:50, the metadata intervention
 

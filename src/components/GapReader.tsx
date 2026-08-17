@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Cite } from "@/components/Cite";
 import { MachineTicket } from "@/components/MachineTicket";
 import { MICROCOPY } from "@/content/copy";
 import { fieldCount } from "@/lib/ticket";
@@ -138,6 +139,11 @@ export function GapReader({
 
       <p className="sr-only" aria-live="polite">
         {live}
+      </p>
+      <p className="vis-caption mt-5">
+        Luiselli&apos;s form drops what does not fit a field.{" "}
+        <Cite id="luiselli" /> Baca says a field you decline to create is a
+        question a future user cannot ask. <Cite id="baca" />
       </p>
     </div>
   );
