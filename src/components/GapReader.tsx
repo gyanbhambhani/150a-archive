@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { MachineTicket } from "@/components/MachineTicket";
 import { MICROCOPY } from "@/content/copy";
-import { fieldCount, getMachineTicket } from "@/lib/ticket";
+import { fieldCount } from "@/lib/ticket";
 import type { ArchiveItem } from "@/lib/types";
 
 type Phase = "idle" | "fading" | "gone";
@@ -79,7 +80,7 @@ export function GapReader({
         <p className="machine mb-2 text-[13px] text-machine">
           {MICROCOPY.machineVoice}
         </p>
-        <MachineTicketView item={item} />
+        <MachineTicket item={item} />
         <style>{`.gap-js { display: none !important; }`}</style>
       </noscript>
 
@@ -112,9 +113,9 @@ export function GapReader({
         </p>
 
         <div className="gap-well">
-          {phase === "gone" ? (
-            <MachineTicketView item={item} />
-          ) : (
+        {phase === "gone" ? (
+          <MachineTicket item={item} />
+        ) : (
             <p className="display text-[21px] leading-[1.5] text-human md:text-[27px]">
               {words.map((word, index) => (
                 <span
@@ -138,36 +139,6 @@ export function GapReader({
       <p className="sr-only" aria-live="polite">
         {live}
       </p>
-    </div>
-  );
-}
-
-function MachineTicketView({ item }: { item: ArchiveItem }) {
-  const ticket = getMachineTicket(item);
-  return (
-    <div className="machine-ticket">
-      <p className="machine text-[15px] text-ink-soft">{ticket.date}</p>
-      <p className="machine mt-2 text-[27px] leading-tight text-machine">
-        {ticket.symbol}
-      </p>
-      <table className="mt-4 w-full border-collapse text-[17px]">
-        <caption className="sr-only">
-          What got saved from {item.title}: {item.machineVoice}
-        </caption>
-        <tbody>
-          {ticket.rows.map((row, index) => (
-            <tr key={`${row.label}-${row.value}-${index}`}>
-              <th
-                scope="row"
-                className="machine w-40 py-2 pr-3 text-left font-normal text-ink-soft"
-              >
-                {row.label}
-              </th>
-              <td className="machine py-2 text-machine">{row.value}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
     </div>
   );
 }

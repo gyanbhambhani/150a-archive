@@ -16,10 +16,13 @@ export default function GuidePage() {
 
         <h2>If you only remember one thing</h2>
         <p>
-          Go to the start page. Press the dark button that says
-          &quot;Strip the reasoning.&quot; A paragraph of why will vanish.
-          Four numbers will take its place. That is the demo. The rest of the
-          site is more of the same idea.
+          Open{" "}
+          <Link href="/demo" className="underline">
+            the demo
+          </Link>
+          . Press &quot;Keep the numbers.&quot; Then &quot;Keep the why.&quot;
+          Then &quot;See them trade.&quot; File A is leftover prices. File B
+          is the feeling, named. The sketch is how those two files trade.
         </p>
 
         <h2>What this site is</h2>
@@ -31,7 +34,18 @@ export default function GuidePage() {
           leftover number.
         </p>
 
-        <h2>How a page works</h2>
+        <h2>The demo, slower</h2>
+        <p>
+          The paragraph is my summary of why people said they would not sell
+          GameStop on 28 January 2021. Keep the numbers and you get a date and
+          four leftover prices. Keep the why and you get labels from a bank of
+          twenty feelings: bandwagon, conviction, fear, and the rest. See them
+          trade and you get a sketch. The leftover-number file sells into the
+          scare. The carousel, reading the labels, stays. I drew the sketch
+          for this page. It is a picture of the claim.
+        </p>
+
+        <h2>How a record page works</h2>
         <p>Every item page has three parts.</p>
         <p>
           <em>The paragraph.</em> Labeled &quot;what a person said.&quot; This

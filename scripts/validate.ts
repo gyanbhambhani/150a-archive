@@ -85,6 +85,7 @@ for (const item of items) {
 
 const longForm = [
   "src/app/page.tsx",
+  "src/app/demo/page.tsx",
   "src/app/exhibit/page.tsx",
   "src/app/guide/page.tsx",
   "src/app/data-dictionary/page.tsx",

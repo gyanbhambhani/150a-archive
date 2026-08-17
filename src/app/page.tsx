@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Cite } from "@/components/Cite";
-import { GapReader } from "@/components/GapReader";
+import { CorpusDemo } from "@/components/CorpusDemo";
 import { Main } from "@/components/Main";
 import { Prose } from "@/components/Prose";
 import { HERO } from "@/content/copy";
@@ -102,30 +102,33 @@ export default function HomePage() {
           on a model that has never had fear in its training data.
         </p>
         <p>
-          The rest of the site is twelve documents. You can start with one.
-          Press the button on GameStop.
+          The rest of the site is twelve documents. The demo below is the
+          whole argument in four steps.
         </p>
       </Prose>
 
       {demo ? (
         <section className="my-10" aria-labelledby="try-it">
-          <h2 id="try-it" className="display mb-4 text-[27px]">
-            GameStop, 28 January 2021
+          <h2 id="try-it" className="display mb-2 text-[27px]">
+            The demo
           </h2>
           <p className="mb-4 max-w-[68ch] text-[15px] text-ink-soft">
-            People wrote, in public, why they would not sell. A price file kept
-            four numbers. Press the dark button and watch the why leave.
+            File A is leftover numbers. File B is the feeling, named, for the
+            carousel. Then a sketch of how those two files trade.{" "}
+            <Link href="/demo" className="underline">
+              Open this on its own page
+            </Link>
+            .
           </p>
           <div className="hairline p-4 md:p-6">
-            <GapReader item={demo} />
+            <CorpusDemo item={demo} />
           </div>
         </section>
       ) : null}
 
       <Prose as="article">
         <p className="mt-6">
-          Most models train on whatever is left after a deletion like that.
-          The{" "}
+          Most models train on File A. The carousel trains on File B. The{" "}
           <Link href="/exhibit" className="underline">
             walkthrough
           </Link>{" "}
