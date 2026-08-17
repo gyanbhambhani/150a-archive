@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useRef } from "react";
 import { TAGLINE } from "@/content/plain";
 import { SITE_TITLE } from "@/lib/site";
 
@@ -18,6 +19,18 @@ const links = [
 
 export function Nav() {
   const pathname = usePathname();
+  const firstLoad = useRef(true);
+
+  useEffect(() => {
+    if (firstLoad.current) {
+      firstLoad.current = false;
+      return;
+    }
+    const active = document.activeElement;
+    if (active instanceof HTMLElement && active.closest("header")) {
+      active.blur();
+    }
+  }, [pathname]);
 
   return (
     <header className="border-b border-rule">
